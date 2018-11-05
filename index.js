@@ -1,17 +1,17 @@
 // Code your solution here:
-function driversWithRevenueOver(drivers, amt) {
+function driversWithRevenueOver(drivers, amount) {
     output = drivers.filter(driver => driver.revenue > amt);
     return output;
 }
- function driverNamesWithRevenueOver(drivers, amt) {
-    output = drivers.filter(driver => driver.revenue > amt);
+ function driverNamesWithRevenueOver(drivers, aountt) {
+    output = drivers.filter(driver => driver.revenue > amount);
     names = output.map(driver => driver.name);
     return names;
 }
  function exactMatch(drivers, hash) {
     key = Object.keys(hash);
     val = hash[key];
-     output = drivers.filter(driver => driver[key] === val );
+     output = drivers.filter(driver => driver[key] === value );
     return output;
 }
  function exactMatchToList(drivers, hash) {
